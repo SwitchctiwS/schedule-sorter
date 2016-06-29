@@ -9,7 +9,7 @@ namespace ScheduleSorter
     class Todo
     {
         private string name;
-        private string description;
+        private string description = string.Empty;
         private DateTime dueDate;
 
         internal Todo()
@@ -18,12 +18,16 @@ namespace ScheduleSorter
             description = "empty";
             dueDate = new DateTime();
         }
+        internal Todo(string name)
+        {
+            this.name = name;
+        }
         internal Todo(string name, DateTime dueDate)
         {
             this.dueDate = dueDate;
             this.name = name;
         }
-        internal Todo(string name, string description, DateTime dueDate)
+        internal Todo(string name, DateTime dueDate, string description)
         {
             this.name = name;
             this.description = description;

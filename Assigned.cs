@@ -8,7 +8,7 @@ namespace ScheduleSorter
     class Assigned
     {
         private string name;
-        private string description;
+        private string description = string.Empty;
         private DateTime dueDate;
         private SchoolClass sClass;
 
@@ -18,7 +18,7 @@ namespace ScheduleSorter
             this.dueDate = dueDate;
             this.sClass = sClass;
         }
-        internal Assigned(string name, string description, DateTime dueDate, SchoolClass sClass)
+        internal Assigned(string name, DateTime dueDate, SchoolClass sClass, string description)
         {
             this.name = name;
             this.description = description;
@@ -41,11 +41,11 @@ namespace ScheduleSorter
         {
             get
             {
-                return this.name;
+                return this.description;
             }
             set
             {
-                this.name = value;
+                this.description = value;
             }
         }
         internal DateTime DueDate
