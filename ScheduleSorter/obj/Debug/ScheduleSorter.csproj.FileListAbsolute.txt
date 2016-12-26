@@ -1,0 +1,12 @@
+F:\Documents\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\bin\Debug\ScheduleSorter.exe.config
+F:\Documents\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\bin\Debug\ScheduleSorter.exe
+F:\Documents\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\bin\Debug\ScheduleSorter.pdb
+F:\Documents\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\obj\Debug\ScheduleSorter.exe
+F:\Documents\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\obj\Debug\ScheduleSorter.pdb
+F:\Documents\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\obj\Debug\ScheduleSorter.csprojResolveAssemblyReference.cache
+F:\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\bin\Debug\ScheduleSorter.exe.config
+F:\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\obj\Debug\ScheduleSorter.exe
+F:\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\obj\Debug\ScheduleSorter.pdb
+F:\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\bin\Debug\ScheduleSorter.exe
+F:\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\bin\Debug\ScheduleSorter.pdb
+F:\Projects\Programming\CSharp\ScheduleSorter\ScheduleSorter\obj\Debug\ScheduleSorter.csprojResolveAssemblyReference.cache

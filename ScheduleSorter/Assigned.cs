@@ -1,72 +1,56 @@
 ﻿using System;
 
-namespace ScheduleSorter
-{
+namespace ScheduleSorter {
     /// <summary>
     /// Assignment for a specific class.
     /// </summary>
-    class Assigned
-    {
+    class Assigned {
         private string name;
         private string description = string.Empty;
         private DateTime dueDate;
         private SchoolClass sClass;
 
-        internal Assigned(string name, DateTime dueDate, SchoolClass sClass)
-        {
+        internal Assigned(string name, DateTime dueDate, SchoolClass sClass) {
             this.name = name;
             this.dueDate = dueDate;
             this.sClass = sClass;
         }
-        internal Assigned(string name, DateTime dueDate, SchoolClass sClass, string description)
-        {
+        internal Assigned(string name, DateTime dueDate, SchoolClass sClass, string description) {
             this.name = name;
             this.description = description;
             this.dueDate = dueDate;
             this.sClass = sClass;
         }
 
-        internal string Name
-        {
-            get
-            {
+        internal string Name {
+            get {
                 return this.name;
             }
-            set
-            {
+            set {
                 this.name = value;
             }
         }
-        internal string Description
-        {
-            get
-            {
+        internal string Description {
+            get {
                 return this.description;
             }
-            set
-            {
+            set {
                 this.description = value;
             }
         }
-        internal DateTime DueDate
-        {
-            get
-            {
+        internal DateTime DueDate {
+            get {
                 return this.dueDate;
             }
-            set
-            {
+            set {
                 this.dueDate = value;
             }
         }
-        internal SchoolClass SClass
-        {
-            get
-            {
+        internal SchoolClass SClass {
+            get {
                 return this.sClass;
             }
-            set
-            {
+            set {
                 this.sClass = value;
             }
         }

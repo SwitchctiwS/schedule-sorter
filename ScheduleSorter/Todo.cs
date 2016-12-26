@@ -1,69 +1,54 @@
 ﻿using System;
 using System.Globalization;
 
-namespace ScheduleSorter
-{
+namespace ScheduleSorter {
     /// <summary>
     /// Thing that needs to be done.
     /// </summary>
-    class Todo
-    {
+    class Todo {
         private string name;
         private string description = string.Empty;
         private DateTime dueDate;
 
-        internal Todo()
-        {
+        internal Todo() {
             name = "empty";
             description = "empty";
             dueDate = new DateTime();
         }
-        internal Todo(string name)
-        {
+        internal Todo(string name) {
             this.name = name;
         }
-        internal Todo(string name, DateTime dueDate)
-        {
+        internal Todo(string name, DateTime dueDate) {
             this.dueDate = dueDate;
             this.name = name;
         }
-        internal Todo(string name, DateTime dueDate, string description)
-        {
+        internal Todo(string name, DateTime dueDate, string description) {
             this.name = name;
             this.description = description;
             this.dueDate = dueDate;
         }
 
-        internal string Name
-        {
-            get
-            {
+        internal string Name {
+            get {
                 return this.name;
             }    
-            set
-            {
+            set {
                 this.name = value;
             }
         }
-        internal string Description
-        {
-            get
-            {
+        internal string Description {
+            get {
                 return this.description;
             }
-            set
-            {
+            set {
                 this.description = value;
             }
         }
-        internal DateTime DueDate
-        {
-            get
-            {
+        internal DateTime DueDate {
+            get {
                 return this.dueDate;
             }
-            set
-            {
+            set {
                 this.dueDate = value;
             }
         }
